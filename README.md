@@ -15,3 +15,9 @@ See https://liveperson-apac-ts.atlassian.net/browse/BOT-132 for context on why t
 - The console will print out the active Bearer
 
   - If you get errors such as `Error: error:0906D06C:PEM routines:PEM_read_bio:no start line`, you probably have an issue with the formatting of your private key. Try running `get_credentials_from_json.js ` to get an output of what the private key should be formatted as.
+  
+ 
+## Findings
+This solution appears to be fit for purpose!
+
+Calling getToken generates the original token

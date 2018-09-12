@@ -1,0 +1,337 @@
+$ node get_token_from_credentials.js
+Asking for token, then waiting for 11 minutes.
+Time is:  2018-09-12T06:14:09.702Z
+Here is the token!:
+ ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM
+Here is the contents of the client:
+ JWT {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  transporter: DefaultTransporter {},
+  credentials:
+   { access_token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+     token_type: 'Bearer',
+     expiry_date: 1536736449000,
+     id_token: undefined,
+     refresh_token: 'jwt-placeholder' },
+  certificateCache: null,
+  certificateExpiry: null,
+  refreshTokenPromises: Map {},
+  _clientId: undefined,
+  _clientSecret: undefined,
+  redirectUri: undefined,
+  authBaseUrl: undefined,
+  tokenUrl: undefined,
+  eagerRefreshThresholdMillis: 300000,
+  email: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+  keyFile: undefined,
+  key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+  scopes: [ 'https://www.googleapis.com/auth/cloud-platform' ],
+  subject: undefined,
+  additionalClaims: undefined,
+  projectId: undefined,
+  gtoken:
+   GoogleToken {
+     token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+     expiresAt: 1536736449000,
+     rawToken:
+      { access_token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+        expires_in: 3600,
+        token_type: 'Bearer' },
+     tokenExpires: null,
+     keyFile: undefined,
+     key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+     iss: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+     sub: undefined,
+     additionalClaims: undefined,
+     scope: 'https://www.googleapis.com/auth/cloud-platform' } }
+Asking for token, then waiting for 11 minutes.
+Time is:  2018-09-12T06:25:09.688Z
+Here is the token!:
+ ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM
+Here is the contents of the client:
+ JWT {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  transporter: DefaultTransporter {},
+  credentials:
+   { access_token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+     token_type: 'Bearer',
+     expiry_date: 1536736449000,
+     id_token: undefined,
+     refresh_token: 'jwt-placeholder' },
+  certificateCache: null,
+  certificateExpiry: null,
+  refreshTokenPromises: Map {},
+  _clientId: undefined,
+  _clientSecret: undefined,
+  redirectUri: undefined,
+  authBaseUrl: undefined,
+  tokenUrl: undefined,
+  eagerRefreshThresholdMillis: 300000,
+  email: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+  keyFile: undefined,
+  key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+  scopes: [ 'https://www.googleapis.com/auth/cloud-platform' ],
+  subject: undefined,
+  additionalClaims: undefined,
+  projectId: undefined,
+  gtoken:
+   GoogleToken {
+     token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+     expiresAt: 1536736449000,
+     rawToken:
+      { access_token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+        expires_in: 3600,
+        token_type: 'Bearer' },
+     tokenExpires: null,
+     keyFile: undefined,
+     key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+     iss: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+     sub: undefined,
+     additionalClaims: undefined,
+     scope: 'https://www.googleapis.com/auth/cloud-platform' } }
+Asking for token, then waiting for 11 minutes.
+Time is:  2018-09-12T06:36:09.676Z
+Here is the token!:
+ ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM
+Here is the contents of the client:
+ JWT {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  transporter: DefaultTransporter {},
+  credentials:
+   { access_token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+     token_type: 'Bearer',
+     expiry_date: 1536736449000,
+     id_token: undefined,
+     refresh_token: 'jwt-placeholder' },
+  certificateCache: null,
+  certificateExpiry: null,
+  refreshTokenPromises: Map {},
+  _clientId: undefined,
+  _clientSecret: undefined,
+  redirectUri: undefined,
+  authBaseUrl: undefined,
+  tokenUrl: undefined,
+  eagerRefreshThresholdMillis: 300000,
+  email: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+  keyFile: undefined,
+  key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+  scopes: [ 'https://www.googleapis.com/auth/cloud-platform' ],
+  subject: undefined,
+  additionalClaims: undefined,
+  projectId: undefined,
+  gtoken:
+   GoogleToken {
+     token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+     expiresAt: 1536736449000,
+     rawToken:
+      { access_token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+        expires_in: 3600,
+        token_type: 'Bearer' },
+     tokenExpires: null,
+     keyFile: undefined,
+     key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+     iss: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+     sub: undefined,
+     additionalClaims: undefined,
+     scope: 'https://www.googleapis.com/auth/cloud-platform' } }
+Asking for token, then waiting for 11 minutes.
+Time is:  2018-09-12T06:47:09.660Z
+Here is the token!:
+ ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM
+Here is the contents of the client:
+ JWT {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  transporter: DefaultTransporter {},
+  credentials:
+   { access_token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+     token_type: 'Bearer',
+     expiry_date: 1536736449000,
+     id_token: undefined,
+     refresh_token: 'jwt-placeholder' },
+  certificateCache: null,
+  certificateExpiry: null,
+  refreshTokenPromises: Map {},
+  _clientId: undefined,
+  _clientSecret: undefined,
+  redirectUri: undefined,
+  authBaseUrl: undefined,
+  tokenUrl: undefined,
+  eagerRefreshThresholdMillis: 300000,
+  email: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+  keyFile: undefined,
+  key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+  scopes: [ 'https://www.googleapis.com/auth/cloud-platform' ],
+  subject: undefined,
+  additionalClaims: undefined,
+  projectId: undefined,
+  gtoken:
+   GoogleToken {
+     token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+     expiresAt: 1536736449000,
+     rawToken:
+      { access_token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+        expires_in: 3600,
+        token_type: 'Bearer' },
+     tokenExpires: null,
+     keyFile: undefined,
+     key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+     iss: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+     sub: undefined,
+     additionalClaims: undefined,
+     scope: 'https://www.googleapis.com/auth/cloud-platform' } }
+Asking for token, then waiting for 11 minutes.
+Time is:  2018-09-12T06:58:09.646Z
+Here is the token!:
+ ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM
+Here is the contents of the client:
+ JWT {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  transporter: DefaultTransporter {},
+  credentials:
+   { access_token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+     token_type: 'Bearer',
+     expiry_date: 1536736449000,
+     id_token: undefined,
+     refresh_token: 'jwt-placeholder' },
+  certificateCache: null,
+  certificateExpiry: null,
+  refreshTokenPromises: Map {},
+  _clientId: undefined,
+  _clientSecret: undefined,
+  redirectUri: undefined,
+  authBaseUrl: undefined,
+  tokenUrl: undefined,
+  eagerRefreshThresholdMillis: 300000,
+  email: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+  keyFile: undefined,
+  key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+  scopes: [ 'https://www.googleapis.com/auth/cloud-platform' ],
+  subject: undefined,
+  additionalClaims: undefined,
+  projectId: undefined,
+  gtoken:
+   GoogleToken {
+     token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+     expiresAt: 1536736449000,
+     rawToken:
+      { access_token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+        expires_in: 3600,
+        token_type: 'Bearer' },
+     tokenExpires: null,
+     keyFile: undefined,
+     key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+     iss: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+     sub: undefined,
+     additionalClaims: undefined,
+     scope: 'https://www.googleapis.com/auth/cloud-platform' } }
+Asking for token, then waiting for 11 minutes.
+Time is:  2018-09-12T07:09:09.625Z
+Here is the token!:
+ ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM
+Here is the contents of the client:
+ JWT {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  transporter: DefaultTransporter {},
+  credentials:
+   { access_token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+     token_type: 'Bearer',
+     expiry_date: 1536736449000,
+     id_token: undefined,
+     refresh_token: 'jwt-placeholder' },
+  certificateCache: null,
+  certificateExpiry: null,
+  refreshTokenPromises: Map {},
+  _clientId: undefined,
+  _clientSecret: undefined,
+  redirectUri: undefined,
+  authBaseUrl: undefined,
+  tokenUrl: undefined,
+  eagerRefreshThresholdMillis: 300000,
+  email: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+  keyFile: undefined,
+  key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+  scopes: [ 'https://www.googleapis.com/auth/cloud-platform' ],
+  subject: undefined,
+  additionalClaims: undefined,
+  projectId: undefined,
+  gtoken:
+   GoogleToken {
+     token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+     expiresAt: 1536736449000,
+     rawToken:
+      { access_token: 'ya29.c.EloWBrPT0RtyJXysJrAfHj4u1CXeg-KJpkZNKeBfNRk9vl50AtfOKXjBxP1Qr-MRwEhPKQf0yhc9MtocdvHKLQpAQlkOW6ZK02mOCL_SHjo6aef83rC2ZjgcIFM',
+        expires_in: 3600,
+        token_type: 'Bearer' },
+     tokenExpires: null,
+     keyFile: undefined,
+     key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+     iss: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+     sub: undefined,
+     additionalClaims: undefined,
+     scope: 'https://www.googleapis.com/auth/cloud-platform' } }
+Asking for token, then waiting for 11 minutes.
+Time is:  2018-09-12T07:20:09.604Z
+Here is the token!:
+ ya29.c.EloWBi0T8xIqaPI_uiT3jruJhXqrEZgbPO0kykZg5XL2Ln80Mj9I6b8-_cA0fWgNV5EvA7qjzUl2-B-20a23F95PlhhrjlwvoJh9ALLLPFenCTphBHfEwlw-utQ
+Here is the contents of the client:
+ JWT {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  transporter: DefaultTransporter {},
+  credentials:
+   { access_token: 'ya29.c.EloWBi0T8xIqaPI_uiT3jruJhXqrEZgbPO0kykZg5XL2Ln80Mj9I6b8-_cA0fWgNV5EvA7qjzUl2-B-20a23F95PlhhrjlwvoJh9ALLLPFenCTphBHfEwlw-utQ',
+     token_type: 'Bearer',
+     expiry_date: 1536740409000,
+     id_token: undefined,
+     refresh_token: 'jwt-placeholder' },
+  certificateCache: null,
+  certificateExpiry: null,
+  refreshTokenPromises: Map {},
+  _clientId: undefined,
+  _clientSecret: undefined,
+  redirectUri: undefined,
+  authBaseUrl: undefined,
+  tokenUrl: undefined,
+  eagerRefreshThresholdMillis: 300000,
+  email: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+  keyFile: undefined,
+  key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+  scopes: [ 'https://www.googleapis.com/auth/cloud-platform' ],
+  subject: undefined,
+  additionalClaims: undefined,
+  projectId: undefined,
+  gtoken:
+   GoogleToken {
+     token: 'ya29.c.EloWBi0T8xIqaPI_uiT3jruJhXqrEZgbPO0kykZg5XL2Ln80Mj9I6b8-_cA0fWgNV5EvA7qjzUl2-B-20a23F95PlhhrjlwvoJh9ALLLPFenCTphBHfEwlw-utQ',
+     expiresAt: 1536740409000,
+     rawToken:
+      { access_token: 'ya29.c.EloWBi0T8xIqaPI_uiT3jruJhXqrEZgbPO0kykZg5XL2Ln80Mj9I6b8-_cA0fWgNV5EvA7qjzUl2-B-20a23F95PlhhrjlwvoJh9ALLLPFenCTphBHfEwlw-utQ',
+        expires_in: 3600,
+        token_type: 'Bearer' },
+     tokenExpires: null,
+     keyFile: undefined,
+     key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ttkzl4AUbJRh\nUJgiREFdFqidcnhaLa5v0d5aZSPFVL92JoRRdcXplwh8i7BpgqEPrkLnt5ztNgyn\nNcLI2qmFpXaukTkK6PunPprIXDzmC2AWES3t2TMcpKmgkwnBNUO3W2mlR4YclIFE\nv2R7wrqE036O0FpkpzH+aLv0iBH5gvhiN3PVuMNkXI9cdl91X5xfqYYHgXT6Z4n/\nLj4DwtsSip5xwIT6mqii6PNmvwLIHuA2f6KZmu3gcro+2j6xl6++rvuMbyMXIaiu\njBinfrEUnEntIvCTzdk7O1tK3mdFgM293HVzKRDMWRw3RzrOFGr812GNbYT6koQm\npdrXjHh7AgMBAAECggEAHnVXLSd5SaA/O7CoquIP6FEJiX0XMQ8R72P3uFKjKb+L\nATky9VtAAN4U9bxBTCSw/q3hajiKg7scGyZtklyOdg1bqCjINrpcX6McZqT+Feqi\nsSvTIRHA2L9G1L+Y13fBaeaTrphK7hALHXfYZpXa2mMHfCu+z4g+Yk/SF7pjXEzu\n9P2ezVfzd8ctFitL9J7tU3RLh/tttXysQvNp/jDzdYjB3iJnAAw3pETl8OmDCDYx\nrof7A3FBVjwEVbFghfVGvmDmidEuO+y7v411vuEQvu0LNhzZn+VN19TBu/Z619/3\nhGTvmZqXu/MFb15u2gLrt/3sfAlGn+gUCGKqCvGrvQKBgQD6QluJVNwGzHaVSbQk\nPKhfbucBne8qv82OQvqbniyZrOKQ0eutVxoQ83vJDC9vk8Dkc4eFJeBlG5gShYNd\nUQlxlwPIbkVXxXCR3aiYnyP/ra61JQlEFsgesMfKxZekRLQIPgnXRNJpGoAJQ0rf\npPOpL/Xd8QUuetWdSyzMDaFMnwKBgQC9+XOsONg9Xi+HH3TDPnVicY+PfiN8yHjP\n1kP5bz8FZteYR3mMKbUd9JpOW6tiDWJ/1b7JKiB6OpAFp4HRWiE24xJRjRZGVTSg\nuR0zyROGI2AXZFD713heESjZIl69ClTRfp7+fDdmE74mv3Kv3j1tdBk/QZ8vbCGm\neuaqpXwqpQKBgQCM11mSsVpezSUToXYrSqPriYuiglK+eVFi9dj6SYuKNR0RKcL8\nO9/kmFMa86uinMHbEBW93nIqFNyB1/f1RY0OC1JKs5x86BYRUXD36+AjnYiMU7qi\nQjv/4befK5LLFQtI9DkvmIDeO9bA38k8kiW7Gs3BSUqEPQcJTex5LlaPuwKBgGdH\nb2Bowv6R7srKCiN/GDf9vutmywoyvqNXPDsmBJ/+KiVqbiUKI6H2cdE5uvGijzMq\nU/9vPJrWrae1Sjkzg60gQ7w8NKjl96eNG9gkb83T+5CcA/72RET3lTp+mfyx2izO\nZse5ZjDDePP9zu7XppOTs4oVNeKFKcIlPLP3JYrVAoGAJfE6bpo5Z9HWu4U96rlW\nwJz2SQLsB61HiJqXa/0Z4m4xyBPiBInARONFiZRlcH8TdFGVY50Yg1H1XJpvpRRB\nIzHorH5wDLkHhvd5sgFwM09qIIQocQbp2K6L9uZRg/9Bn4n0jFdI6mdRYsidEVK2\nyZ/TxFTdU8HqfG6F6RWc0WI=\n-----END PRIVATE KEY-----\n',
+     iss: 'bentestgdf@new-v2-bot.iam.gserviceaccount.com',
+     sub: undefined,
+     additionalClaims: undefined,
+     scope: 'https://www.googleapis.com/auth/cloud-platform' } }

@@ -10,10 +10,23 @@ let authConfig = {
 
 let auth = googleAuth(authConfig);
 
-auth.getToken((err, token) => {
-  if (err) {
-    console.log("There was an error: ", err);
-  } else {
-    console.log("Here is the token!", token);
-  }
-});
+const tokenLoop = function() {
+  console.log("Asking for token, then waiting for 11 minutes.");
+  console.log("Time is: ", new Date());
+  auth.getToken((err, token) => {
+    if (err) {
+      console.log("There was an error: ", err);
+    } else {
+      console.log("Here is the token!: \n", token);
+      auth.getAuthClient((err, client) => {
+        if (err) {
+          console.log("There was an error: ", err);
+        } else {
+          console.log("Here is the contents of the client: \n", client);
+        }
+      });
+    }
+  });
+  setTimeout(tokenLoop, 660000)
+};
+tokenLoop();
