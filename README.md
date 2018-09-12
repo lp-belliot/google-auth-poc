@@ -20,4 +20,10 @@ See https://liveperson-apac-ts.atlassian.net/browse/BOT-132 for context on why t
 ## Findings
 This solution appears to be fit for purpose!
 
-Calling getToken generates the original token
+Calling getToken generates a token, with a 3600 second lifetime. 
+Calling getToken close to the expiry time will refresh the token with the google auth service and provide the new bearer.
+
+
+So it would seem that the best approach would be to call getToken every time you need to make a request to DialogFlow.
+
+See `bearer-refresh-example.log` for a simple example of the bearer getting refreshed automagically.
